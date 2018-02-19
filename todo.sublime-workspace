@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"colCount"
+			],
+			[
+				"background",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/laracasts/js-sandbox/site.js",
+		"/C/xampp/htdocs/heartwood/wp-content/themes/87-template/templates/three_column_links.php",
+		"/C/xampp/htdocs/laracasts/js-sandbox/index.html",
+		"/C/xampp/htdocs/heartwood/wp-content/themes/87-template/sass/_site.scss",
+		"/C/xampp/htdocs/eightseven-template/emailers/es/rp.html",
+		"/C/xampp/htdocs/eightseven-template/emailers/es/eh.html",
+		"/C/xampp/htdocs/eightseven-template/emailers/es/outlook.html",
+		"/C/Users/Rob/Dropbox/Heartwood Bespoke Carpentry/Website/Web Build/Backups/.htaccess",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/navigation.php",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/_footer.php",
+		"/C/xampp/htdocs/eightseven/src/.htaccess",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/404.php",
+		"/C/xampp/htdocs/eightseven-template/emailers/es/development.html",
+		"/C/xampp/htdocs/heartwood/wp-content/themes/87-template/css/global.css",
+		"/C/Users/Rob/Documents/Eight Seven/.htaccess-live-new.htaccess",
+		"/C/xampp/htdocs/eightseven/sass/desktop/responsive/_small_desktop.scss",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/xampp/htdocs/eightseven/src/wp-comments-post.php",
+		"/C/Users/Rob/AppData/Local/Temp/Temp1_JS Sandbox.zip/JS Sandbox/package.json",
+		"/C/Users/Rob/Downloads/.htaccess",
+		"/C/xampp/htdocs/eightseven/sass/desktop/responsive/_tablet.scss",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/footer-bar.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/single.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/page-about.php",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_about.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/responsive/_mobile.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/responsive/media_queries.scss",
+		"/C/xampp/htdocs/eightseven/Gruntfile.js",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/header.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/includes/footer-bar.php",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/header-bar.php",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_single_project.scss",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/front-page.php",
+		"/C/Users/Rob/Dropbox/Eight Seven/Web build/Backups/Full Site - Staging to go live/wp-config.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/templates/project_thumbnails.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/front-page.php",
+		"/C/Users/Rob/Documents/Eight Seven/Live htaccess/.htaccess",
+		"/C/xampp/htdocs/eightseven/sass/desktop/_site.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_navigation.scss",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/includes/navigation.php",
+		"/C/xampp/htdocs/eightseven/js/site.js",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_footer-bar.scss",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/functions.php",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/includes/header-bar.php",
+		"/C/Users/Rob/AppData/Local/Temp/fz3temp-1/wp-config 2.php",
+		"/C/xampp/htdocs/eightseven/sass/desktop/framework/bootstrap/_grid.scss",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/category.php",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_header-bar.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/templates/_contact.scss",
+		"/C/xampp/htdocs/eightseven/src/wp-content/themes/es-template/page-contact.php",
+		"/C/xampp/htdocs/eightseven/sass/desktop/framework/_bootstrap_grid.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/framework/bootstrap/mixins/_breakpoints.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/responsive/_retina.scss",
+		"/C/xampp/htdocs/eightseven/sass/desktop/framework/bootstrap/mixins/_grid-framework.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\eightseven\\sass\\desktop"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tel",
+			".copyright",
+			".copyuright",
+			"large"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "todo.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
