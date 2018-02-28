@@ -21,15 +21,38 @@
 
 			<hr>
 
-			<ul>
+			<ul style="display:flex; justify-content: space-between;">
 					
 			    @foreach ($todaysInCompleteTodos as $todo)
 
 			        <li><a href="/todos/{{ $todo->id }}">{{ $todo->title }}</a></li>
 
+			        <div class="buttons">
+
+				        <!-- Edit To Do -->
+				        <a href="/todos/{{ $todo->id }}/edit" class="btn btn-primary">Edit</a>
+				        <!-- Edit To Do --> 
+
+				        <!-- Delete Form -->
+				        <form action="{{url('todos', [$todo->id])}}" method="POST">
+						    <input type="hidden" name="_method" value="DELETE">
+						   <input type="hidden" name="_token" value="{{ csrf_token() }}">
+						   <input type="submit" class="btn btn-danger" value="Delete"/>
+						</form>
+				        <!-- End of Delete Form -->
+
+			    	</div>
+
 			    @endforeach
 
 			</ul>
+
+			<hr>
+
+			<!-- Create a new task - CTA -->
+			<a href="/todos/create" class="btn btn-primary">Add new task</a>
+
+			<hr>
 
 		</div>
 

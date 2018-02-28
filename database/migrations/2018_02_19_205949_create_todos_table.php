@@ -17,10 +17,10 @@ class CreateTodosTable extends Migration
             $table->increments('id');
             $table->text('title');
             $table->text('notes');
-            $table->date('date_added');
             $table->date('due_date');
             $table->boolean('completed')->default(false);
             $table->date('completed_date')->nullable()->default(null);
+            $table->timestamps();
         });
     }
 
