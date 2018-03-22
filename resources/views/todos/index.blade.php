@@ -3,47 +3,43 @@
 @section ('content')
 
 	<div class="row">
-
-		<div class="col-12">
-
-			<h1>Task Manager</h1>
-			<hr>
-		
-		</div>
-
-	</div>
-
-	<div class="row">
 	
-		<div class="col-md-8">
+		<div class="col-md-9">
 
 			<h2>Todays To Dos</h2>
 
 			<hr>
 
-			<ul style="display:flex; justify-content: space-between;">
+			<ul class="task-overview">
+
+				@if(!$todaysInCompleteTodos->isEmpty())
 					
-			    @foreach ($todaysInCompleteTodos as $todo)
+				    @foreach ($todaysInCompleteTodos as $todo)
 
-			        <li><a href="/todos/{{ $todo->id }}">{{ $todo->title }}</a></li>
+				        <li>
 
-			        <div class="buttons">
+					        <a href="/todos/{{ $todo->id }}">{{ $todo->title }}</a>
 
-				        <!-- Edit To Do -->
-				        <a href="/todos/{{ $todo->id }}/edit" class="btn btn-primary">Edit</a>
-				        <!-- Edit To Do --> 
+					        <ul class="buttons">
 
-				        <!-- Delete Form -->
-				        <form action="{{url('todos', [$todo->id])}}" method="POST">
-						    <input type="hidden" name="_method" value="DELETE">
-						   <input type="hidden" name="_token" value="{{ csrf_token() }}">
-						   <input type="submit" class="btn btn-danger" value="Delete"/>
-						</form>
-				        <!-- End of Delete Form -->
+						        <li> @include ('partials.todos.complete') </li>
 
-			    	</div>
+						        <li> @include ('partials.todos.edit') </li>
 
-			    @endforeach
+						        <li> @include ('partials.todos.delete') </li>
+
+					    	</ul>
+
+				    	</li>
+
+				    @endforeach
+
+				@else
+
+			   	<p>You have no tasks due today....relax!</p>
+
+			   	@endif
+
 
 			</ul>
 
@@ -56,7 +52,7 @@
 
 		</div>
 
-		<div class="col-md-4">
+		<div class="col-md-3">
 
 			<h3>Recently Completed To Dos</h3>
 

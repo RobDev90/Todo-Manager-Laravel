@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"request"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
 				"rever",
 				"reverseStrArray"
 			],
@@ -44,21 +52,36 @@
 	"buffers":
 	[
 		{
-			"file": "/C/xampp/htdocs/playground/index.html",
+			"file": "/C/xampp/htdocs/brightunite-laravel/.env",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 701,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/playground/site.js",
+			"file": "/C/xampp/htdocs/brightunite-laravel/routes/web.php",
 			"settings":
 			{
-				"buffer_size": 244,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 1738,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/brightunite-laravel/app/Project.php",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/brightunite-laravel/app/Http/Controllers/Application/ProjectsController.php",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -106,27 +129,63 @@
 		"/C/xampp/htdocs/todo-manager/app/Http/Controllers",
 		"/C/xampp/htdocs/todo-manager/database",
 		"/C/xampp/htdocs/todo-manager/database/migrations",
+		"/C/xampp/htdocs/todo-manager/resources",
+		"/C/xampp/htdocs/todo-manager/resources/assets",
+		"/C/xampp/htdocs/todo-manager/resources/assets/sass",
+		"/C/xampp/htdocs/todo-manager/resources/views",
+		"/C/xampp/htdocs/todo-manager/resources/views/partials",
+		"/C/xampp/htdocs/todo-manager/resources/views/todos",
 		"/C/xampp/htdocs/todo-manager/routes"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/todo-manager/app/Todo.php",
+		"/C/xampp/htdocs/brightunite-laravel/resources/views/admin/projects/create.blade.php",
+		"/C/xampp/htdocs/todo-manager/.env",
+		"/C/xampp/htdocs/brightunite-laravel/routes/web.php",
+		"/C/xampp/htdocs/todo-manager/routes/web.php",
 		"/C/xampp/htdocs/todo-manager/app/Http/Controllers/ToDosController.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/partials/footer.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/todos/edit.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/todos/create.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/todos/show.blade.php",
+		"/C/xampp/htdocs/todo-manager/app/Todo.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/todos/index.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/layout.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/assets/sass/_variables.scss",
+		"/C/xampp/htdocs/laravel/package.json",
+		"/C/xampp/htdocs/todo-manager/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/todo-manager/public/css/app.css",
+		"/C/xampp/htdocs/todo-manager/resources/assets/js/app.js",
+		"/C/xampp/htdocs/todo-manager/package.json",
+		"/C/xampp/htdocs/todo-manager/resources/views/partials/todos/delete.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/partials/todos/edit.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/partials/todos/complete.blade.php",
+		"/C/xampp/htdocs/todo-manager/database/migrations/2018_02_19_205949_create_todos_table.php",
+		"/C/xampp/htdocs/todo-manager/app/Http/Controllers/testController.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/errors/404.blade.php",
+		"/C/xampp/htdocs/todo-manager/public/index.php",
+		"/C/xampp/htdocs/todo-manager/public/.htaccess",
+		"/C/xampp/htdocs/todo-manager/server.php",
+		"/C/xampp/htdocs/todo-manager/config/app.php",
+		"/C/xampp/htdocs/laravel/routes/web.php",
 		"/C/xampp/htdocs/todo-manager/resources/views/overview.blade.php",
 		"/C/xampp/htdocs/todo-manager/resources/views/partials/header.blade.php",
-		"/C/xampp/htdocs/todo-manager/resources/views/partials/footer.blade.php",
-		"/C/xampp/htdocs/todo-manager/routes/web.php",
-		"/C/xampp/htdocs/todo-manager/resources/views/layout.blade.php",
-		"/C/xampp/htdocs/todo-manager/resources/views/todos/show.blade.php",
-		"/C/xampp/htdocs/todo-manager/database/migrations/2018_02_19_205949_create_todos_table.php",
-		"/C/xampp/htdocs/todo-manager/.env",
+		"/C/xampp/htdocs/laravel/resources/views/create.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/about.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/test/test.blade.php",
+		"/C/xampp/htdocs/todo-manager/resources/views/test/index.blade.php",
+		"/C/xampp/htdocs/heartwood/.htaccess",
+		"/C/xampp/htdocs/todo-manager/public/phpinfo.php",
+		"/C/xampp/htdocs/todo-manager/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/todo-manager/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/playground/index.html",
+		"/C/xampp/htdocs/playground/site.js",
 		"/C/Users/Rob/.ssh/id_rsa",
 		"/C/Users/Rob/.ssh/id_rsa.pub",
 		"/C/xampp/htdocs/todo-manager/.gitignore",
 		"/C/xampp/htdocs/todo-manager/vendor/phpdocumentor/reflection-docblock/src/DocBlock.php",
 		"/C/xampp/htdocs/todo-manager/vendor/laravel/framework/src/Illuminate/Database/Connection.php",
 		"/C/xampp/htdocs/todo-manager/database/migrations/2018_02_19_202016_create_tasks_table.php",
-		"/C/xampp/htdocs/todo-manager/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/C/xampp/htdocs/todo-manager/database/migrations/2014_10_12_100000_create_password_resets_table.php",
 		"/C/xampp/htdocs/todo-manager/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php",
 		"/C/xampp/htdocs/todo-manager/app/Providers/AppServiceProvider.php",
@@ -204,6 +263,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"form-group\">\n\t\t\t\t    <label for=\"exampleInputEmail1\">Email address</label>\n\t\t\t\t    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n\t\t\t\t    <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>\n\t\t\t\t  </div>\n\t\t\t\t  <div class=\"form-group\">\n\t\t\t\t    <label for=\"exampleInputPassword1\">Password</label>\n\t\t\t\t    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\">\n\t\t\t\t  </div>\n\t\t\t\t  <div class=\"form-group\">\n\t\t\t\t    <label for=\"exampleTextarea\">Example textarea</label>\n\t\t\t\t    <textarea class=\"form-control\" id=\"exampleTextarea\" rows=\"3\"></textarea>\n\t\t\t\t  </div>\n\t\t\t\t  <div class=\"form-group\">\n\t\t\t\t    <label for=\"exampleInputFile\">File input</label>\n\t\t\t\t    <input type=\"file\" class=\"form-control-file\" id=\"exampleInputFile\" aria-describedby=\"fileHelp\">\n\t\t\t\t    <small id=\"fileHelp\" class=\"form-text text-muted\">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>\n\t\t\t\t  ",
+			"\t\t\t\t  <",
 			"asset",
 			"//$",
 			"boot()",
@@ -229,30 +290,85 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/xampp/htdocs/playground/index.html",
+					"file": "/C/xampp/htdocs/brightunite-laravel/.env",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								263,
+								263
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/brightunite-laravel/routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/brightunite-laravel/app/Project.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -262,25 +378,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/xampp/htdocs/playground/site.js",
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/brightunite-laravel/app/Http/Controllers/Application/ProjectsController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 244,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								30
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -341,6 +459,14 @@
 		"selected_items":
 		[
 			[
+				"c/todo",
+				"app\\Http\\Controllers\\ToDosController.php"
+			],
+			[
+				"rw",
+				"routes\\web.php"
+			],
+			[
 				"v/ov",
 				"resources\\views\\overview.blade.php"
 			],
@@ -367,10 +493,6 @@
 			[
 				"rvwel",
 				"resources\\views\\welcome.blade.php"
-			],
-			[
-				"rw",
-				"routes\\web.php"
 			]
 		],
 		"width": 0.0

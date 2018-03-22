@@ -1,0 +1,1 @@
+<a href="/todos/{{ $todo->id }}/edit" class="btn btn-primary">Edit</a>

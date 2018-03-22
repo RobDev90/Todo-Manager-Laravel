@@ -12,9 +12,11 @@ class Todo extends Model
 
         'title',
         'notes',
-        'due_date'
+        'due_date',
+        'completed'
 
     ];
+
 
     /* Scope completed tasks */
     public function scopeComplete($query) {

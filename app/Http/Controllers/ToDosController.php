@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Todo;
+use Carbon\Carbon;
 
 class ToDosController extends Controller
 {
@@ -67,9 +68,24 @@ class ToDosController extends Controller
     public function destroy(Todo $todo) {
 
         $todo->delete();
+        return response()->json([
+            'success'=>"Todo Deleted successfully.", 
+            'todo_id' => $todo->id
+        ]);
+
+        // return redirect('/');
+
+    }
+
+    public function setComplete(Todo $todo) {
+
+
+        $todo->completed = 1;
+        $todo->completed_date = Carbon::now();
+
+        $todo->save();
 
         return redirect('/');
-
     }
 
     
