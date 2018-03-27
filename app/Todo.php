@@ -44,13 +44,15 @@ class Todo extends Model
     }
 
 
-    /* Scope incomplete tasks in the upcoming week */
+    /* Scope incomplete tasks with due date between today and the next week */
     public function scopeTodosInTheNextWeek($query) {
 
+        $today = Carbon::today();
     	$following_week = Carbon::now()->addWeeks(1);
 
     	return $query->where('completed', 0)
-    	             ->where('due_date', '<=', $following_week);
+    	             ->where('due_date', '<=', $following_week, 'and')
+                     ->where('due_date', '>', $today);
 
     }
 
