@@ -63,6 +63,7 @@
 				@foreach ($lastFiveCompletedTodos as $todo)
 
 			        <li><a href="/todos/{{ $todo->id }}">{{ $todo->title }}</a></li>
+			        <li> @include ('partials.todos.incomplete') </li>
 
 			    @endforeach
 

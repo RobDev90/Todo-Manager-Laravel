@@ -6,6 +6,10 @@ ul li {
   list-style-type: none;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 header {
   background: #3C75E7;
   padding: 20px 0;

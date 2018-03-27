@@ -17,6 +17,18 @@ class Todo extends Model
 
     ];
 
+    public function setCompletedAttribute($value) {
+
+        $this->attributes['completed'] = $value;
+
+    }
+
+    public function setCompletedDateAttribute($value) {
+
+        $this->attributes['completed_date'] = $value;
+
+    }
+
 
     /* Scope completed tasks */
     public function scopeComplete($query) {

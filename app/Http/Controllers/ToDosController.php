@@ -88,6 +88,17 @@ class ToDosController extends Controller
         return redirect('/');
     }
 
+    public function setIncomplete(Todo $todo) {
+
+
+        $todo->completed = 0;
+        $todo->completed_date = NULL;
+
+        $todo->save();
+
+        return redirect('/');
+    }
+
     
 
 }

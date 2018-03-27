@@ -8,7 +8,7 @@
 		<div class="col-12">
 			<h2>Add a new to-do:</h2>
 			<hr>
-			<form action="{{url('todos', [$todo->id])}}" method="POST">
+			<form onsubmit="return confirm('Please confirm you are happy with your changes.');"  action="{{url('todos', [$todo->id])}}" method="POST">
 
 				<input type="hidden" name="_method" value="PUT">
 
@@ -27,10 +27,15 @@
 				    <input type="date" class="form-control" id="formDueDate" name="due_date" value="{{ $todo->due_date }}">
 				</div>
 
-  				<button type="submit" class="btn btn-primary">Edit</button>
+  				<button type="submit" class="btn btn-primary">Save</button>
 			</form>
 
-			<a href="/">Back</a>
+			<hr>
+
+			<div class="form-group">
+				<a class="btn" href="/" >Back</a>
+			</div>
+		
 		</div>
 
 	</div>
